@@ -1,0 +1,31 @@
+<LinearLayout
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".terms"
+    android:background="#0652AD"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="55dp"
+        android:layout_height="44dp"
+        >
+
+        <ImageView
+            android:contentDescription="click to go back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="back"
+            tools:ignore="OnClick"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+    </androidx.cardview.widget.CardView>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:id="@+id/wv_terms"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>
